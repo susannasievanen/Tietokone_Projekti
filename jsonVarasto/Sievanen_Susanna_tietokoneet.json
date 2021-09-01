@@ -1,0 +1,58 @@
+[
+    {
+        "tunniste": 5,
+        "nimi": "Hirmu II",
+        "tyyppi": "pöytäkone",
+        "lukumaara": 30,
+        "suoritin": "PiiTron 3"
+    },
+    {
+        "tunniste": 3,
+        "nimi": "FutSign 3000",
+        "tyyppi": "taskukone",
+        "lukumaara": 13,
+        "suoritin": "Seleeni II"
+    },
+    {
+        "tunniste": 1,
+        "nimi": "MaxEffect 2000",
+        "tyyppi": "kannettava",
+        "lukumaara": 5,
+        "suoritin": "Letni 64"
+    },
+    {
+        "tunniste": 6,
+        "nimi": "GameDelux",
+        "tyyppi": "superkone",
+        "lukumaara": 15,
+        "suoritin": "MotorOle"
+    },
+    {
+        "tunniste": 4,
+        "nimi": "Cera 2400",
+        "tyyppi": "upotettu",
+        "lukumaara": 1,
+        "suoritin": "Älli"
+    },
+    {
+        "tunniste": 2,
+        "nimi": "Päärynä Mark II",
+        "tyyppi": "palvelin",
+        "lukumaara": 5,
+        "suoritin": "BNE"
+    },
+    {
+        "tunniste": 121,
+        "nimi": "",
+        "tyyppi": "",
+        "lukumaara": 0,
+        "suoritin": ""
+    },
+    {
+        "tunniste": 10,
+        "nimi": "III",
+        "tyyppi": "kannettava",
+        "lukumaara": 6,
+        "suoritin": ""
+    }
+]

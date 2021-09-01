@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= paaotsikko %></title>
+    <link rel="stylesheet" href="/tyylit/tyylit.css" type="text/css">
+</head>
+<body>
+    <main>
+        <h1><%= otsikko %></h1>
+        <form action="<%= toiminto %>" method="POST">
+            <p>
+                <label>Id:</label>
+                <input type="text" name="tunniste" size="5">
+            </p>
+            <button type="submit">Lähetä</button>
+        </form>
+        <a href="/"><button>Valikko</button></a>
+    </main>
+</body>
+</html>

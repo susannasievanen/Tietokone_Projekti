@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tietokoneet</title>
+    <link rel="stylesheet" href="/tyylit/tyylit.css" type="text/css">
+</head>
+<body>
+    <main>
+
+        <h2>Kaikki tiedot</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>tunniste</th>
+                    <th>nimi</th>
+                    <th>tyyppi</th>
+                    <th>lukumaara</th>
+                    <th>suoritin</th>
+                </tr>
+            </thead>
+            <tbody>
+            <% tulos.forEach(tietokone=>{ %>
+                <tr>
+                    <td>
+                        <%= tietokone.tunniste %>
+                    </td>
+                    <td>
+                        <%= tietokone.nimi %>
+                    </td>
+                    <td>
+                        <%= tietokone.tyyppi %>
+                    </td>
+                    <td>
+                        <%= tietokone.lukumaara %>
+                    </td>
+                    <td>
+                        <%= tietokone.suoritin %>
+                    </td>
+                </tr>
+            <% }) %>
+            </tbody>
+        </table>
+        <a href="/"><button>Valikko</button></a>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+main,form {
+display: grid;
+align-items: center;
+justify-items: center;
+padding: 10px;
+}
+table, td, th {
+border:1px solid black;
+border-collapse: collapse;
+padding:0.5em;
+}
+th {
+background-color: khaki;
+}
+table{
+margin-bottom: 1em;
+}
+tr:nth-child(odd){
+background-color: lightgray;
+}
+input[readonly]{
+background-color: lightgrey;
+}
+button {
+font-family: sans-serif;
+font-size: 1em;
+width: 13em;
+height: 2em;
+}
+.virhe{
+border:dashed red 1px;
+padding:1em;
+}
